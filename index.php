@@ -1,3 +1,5 @@
+<?php
+$content ='
 <style type="text/css">
 *{
     font-family:Tahoma, Geneva, sans-serif;
@@ -40,36 +42,37 @@ h4{
 }
 </style>
 
-<div class="drag" id="drag">
 
+
+
+<div class="drag" id="drag">
 <div class="box black">
 <div class="box-head">
-<h4>Title Goes here</h4>
+<h4>Sample Title One</h4>
 </div>
 <div>
-Content Of the Box goes here
+Place Text here.  
 </div>
 </div>
-
 <div class="box red">
 <div class="box-head">
-<h4>Title Goes here</h4>
+<h4> Sample Title Two</h4>
 </div>
 <div>
-Content Of the Box goes here
+Place Text here.
 </div>
 </div>
-
 <div class="box blue">
 <div class="box-head">
-<h4>Title Goes here</h4>
+<h4>Sample Title Three</h4>
 </div>
 <div>
-Content Of the Box goes here
+Place Text here.
+
+Please follow the instruction given in download package to implement it in your web applications. </div>
 </div>
 </div>
 
-</div>
 <script type="text/javascript" src="jquery-1.8.0.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -79,4 +82,11 @@ items: ".box",
 opacity: 0.5,
 tolerance: "pointer"
 });
-</script>
+</script>';
+
+
+$pre = 1;
+$title = "How to drag and drop items using jQuery";
+$heading = "How to drag and drop items using jQuery example.";
+include("html.inc");            
+?>
